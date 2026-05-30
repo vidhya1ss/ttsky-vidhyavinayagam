@@ -13,7 +13,7 @@ project:
     a stable parallel input on ui_in[3:1]. Done signal on uio[0] pulses high
     for exactly one clock cycle to indicate end of operation.
   language:    "Verilog"
-  clock_hz:    50000000   # 50 MHz — TinyTapeout digital IO maximum
+  clock_hz:    50000000   # 50 MHz — TinyTapeout digital IO maximum.
 
   # One minimum tile (160 x 100 um) is sufficient for this ALU
   tiles: "1x1"
